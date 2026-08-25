@@ -1,0 +1,410 @@
+{
+  "version": 1,
+  "runs": [
+    {
+      "run_id": "e07d72df-b3f8-462f-a510-1637f5a30e27",
+      "topic": "Introduction to RAG",
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "failed_criteria": [],
+          "root_cause": "passed",
+          "fix_applied": "No repair was needed",
+          "changed": {
+            "lesson": "repaired",
+            "claims": "fault removed"
+          }
+        }
+      ],
+      "status": "failed",
+      "inject_fault": true
+    },
+    {
+      "run_id": "98ddc6fe-5f27-48c5-97b9-84dd88d54bbb",
+      "topic": "Introduction to RAG",
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "failed_criteria": [
+            "fault_wrong_retrieval_order",
+            "rag_definition",
+            "claims_are_grounded",
+            "defines_jargon",
+            "coherent_flow"
+          ],
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded, defines_jargon, coherent_flow",
+          "fix_applied": "Preserved the passing lesson structure and explicitly fixed: claims_are_grounded, coherent_flow, defines_jargon, fault_wrong_retrieval_order, rag_definition",
+          "changed": {
+            "lesson": "repaired",
+            "claims": "fault removed"
+          }
+        }
+      ],
+      "status": "failed",
+      "inject_fault": true
+    },
+    {
+      "run_id": "42a22f3a-6c44-46c0-a91f-9b50d603953f",
+      "topic": "Introduction to RAG",
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "failed_criteria": [
+            "fault_wrong_retrieval_order",
+            "rag_definition",
+            "claims_are_grounded",
+            "coherent_flow"
+          ],
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded, coherent_flow",
+          "fix_applied": "Preserved the passing lesson structure and explicitly fixed: claims_are_grounded, coherent_flow, fault_wrong_retrieval_order, rag_definition",
+          "changed": {
+            "lesson": "repaired",
+            "claims": "fault removed"
+          }
+        }
+      ],
+      "status": "failed",
+      "inject_fault": true
+    },
+    {
+      "run_id": "ea6c6b97-ca4e-454a-84c2-2807b008591f",
+      "topic": "Introduction to RAG",
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "failed_criteria": [
+            "fault_wrong_retrieval_order",
+            "rag_definition",
+            "claims_are_grounded"
+          ],
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded",
+          "fix_applied": "Preserved the passing lesson structure and explicitly fixed: claims_are_grounded, fault_wrong_retrieval_order, rag_definition",
+          "changed": {
+            "lesson": "repaired",
+            "claims": "fault removed"
+          }
+        }
+      ],
+      "status": "passed",
+      "inject_fault": true
+    },
+    {
+      "run_id": "c419cca2-a670-44d3-b89c-cbf05a9547fd",
+      "topic": "Introduction to RAG",
+      "attempts": [],
+      "status": "passed",
+      "inject_fault": false
+    },
+    {
+      "run_id": "534b5a62-c4a0-464c-910b-a04df3ea8f5b",
+      "topic": "Introduction to RAG",
+      "attempts": [],
+      "status": "passed",
+      "inject_fault": false
+    },
+    {
+      "run_id": "c986a519-4cd0-42d2-96f0-e43fa76338c0",
+      "topic": "Introduction to RAG",
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "failed_criteria": [
+            "fault_wrong_retrieval_order",
+            "rag_definition",
+            "claims_are_grounded"
+          ],
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded",
+          "fix_applied": "Preserved the passing lesson structure and explicitly fixed: claims_are_grounded, fault_wrong_retrieval_order, rag_definition",
+          "changed": {
+            "lesson": "repaired",
+            "claims": "fault removed"
+          }
+        }
+      ],
+      "status": "failed",
+      "inject_fault": true
+    },
+    {
+      "run_id": "cdd2e530-30c5-466d-9816-fe43f95e6b86",
+      "topic": "Introduction to RAG",
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "failed_criteria": [
+            "fault_wrong_retrieval_order",
+            "rag_definition",
+            "claims_are_grounded"
+          ],
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded",
+          "fix_applied": "Preserved the passing lesson structure and explicitly fixed: claims_are_grounded, fault_wrong_retrieval_order, rag_definition",
+          "changed": {
+            "lesson": "repaired",
+            "claims": "fault removed"
+          }
+        }
+      ],
+      "status": "passed",
+      "inject_fault": true
+    },
+    {
+      "run_id": "001ddaff-33b9-45da-9146-62cc89051fc3",
+      "topic": "Introduction to RAG",
+      "attempts": [],
+      "status": "passed",
+      "inject_fault": false
+    },
+    {
+      "run_id": "0ea9ed4a-81a7-48ca-8297-97930d3dccc1",
+      "topic": "Introduction to RAG",
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "failed_criteria": [
+            "fault_wrong_retrieval_order",
+            "rag_definition",
+            "claims_are_grounded"
+          ],
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded",
+          "fix_applied": "Preserved the passing lesson structure and explicitly fixed: claims_are_grounded, fault_wrong_retrieval_order, rag_definition",
+          "changed": {
+            "lesson": "repaired",
+            "claims": "fault removed"
+          }
+        }
+      ],
+      "status": "passed",
+      "inject_fault": true
+    },
+    {
+      "run_id": "bfd54f1e-ec18-4271-8482-f6e05e604377",
+      "topic": "Introduction to RAG",
+      "attempts": [],
+      "status": "passed",
+      "inject_fault": false
+    },
+    {
+      "run_id": "c6313031-674e-42c2-8bd2-cb954861c5f2",
+      "topic": "Introduction to RAG",
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "failed_criteria": [
+            "fault_wrong_retrieval_order",
+            "rag_definition",
+            "claims_are_grounded"
+          ],
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded",
+          "fix_applied": "Preserved the passing lesson structure and explicitly fixed: claims_are_grounded, fault_wrong_retrieval_order, rag_definition",
+          "changed": {
+            "lesson": "repaired",
+            "claims": "fault removed"
+          }
+        }
+      ],
+      "status": "passed",
+      "inject_fault": true
+    },
+    {
+      "run_id": "f68bc70e-9d0a-42b2-82d7-cfc94f4adb5f",
+      "topic": "Introduction to RAG",
+      "attempts": [],
+      "status": "passed",
+      "inject_fault": false
+    },
+    {
+      "run_id": "4e2f856c-1436-4d86-9337-b57b56a4a6de",
+      "topic": "Introduction to RAG",
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "failed_criteria": [
+            "fault_wrong_retrieval_order",
+            "rag_definition",
+            "claims_are_grounded"
+          ],
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded",
+          "fix_applied": "Preserved the passing lesson structure and explicitly fixed: claims_are_grounded, fault_wrong_retrieval_order, rag_definition",
+          "repair_feedback": [
+            "fault_wrong_retrieval_order",
+            "rag_definition",
+            "claims_are_grounded"
+          ],
+          "changed": {
+            "lesson": "repaired",
+            "claims": "fault removed"
+          }
+        }
+      ],
+      "status": "passed",
+      "inject_fault": true
+    },
+    {
+      "run_id": "7be7a32d-3a20-4f6f-991d-13542925f770",
+      "topic": "Introduction to RAG",
+      "attempts": [],
+      "status": "passed",
+      "inject_fault": false
+    },
+    {
+      "run_id": "688bda95-d2c1-4e52-9b9b-ef95ba0f4b4d",
+      "topic": "Introduction to RAG",
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "failed_criteria": [
+            "fault_wrong_retrieval_order",
+            "rag_definition",
+            "claims_are_grounded"
+          ],
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded",
+          "fix_applied": "Preserved the passing lesson structure and explicitly fixed: claims_are_grounded, fault_wrong_retrieval_order, rag_definition",
+          "repair_feedback": [
+            "fault_wrong_retrieval_order",
+            "rag_definition",
+            "claims_are_grounded"
+          ],
+          "changed": {
+            "lesson": "repaired",
+            "claims": "fault removed"
+          }
+        }
+      ],
+      "status": "passed",
+      "inject_fault": true
+    }
+  ],
+  "failure_patterns": {
+    "fault_wrong_retrieval_order": {
+      "count": 9,
+      "examples": [
+        {
+          "topic": "Introduction to RAG",
+          "attempt": 1,
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded, defines_jargon, coherent_flow"
+        },
+        {
+          "topic": "Introduction to RAG",
+          "attempt": 1,
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded, coherent_flow"
+        },
+        {
+          "topic": "Introduction to RAG",
+          "attempt": 1,
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded"
+        },
+        {
+          "topic": "Introduction to RAG",
+          "attempt": 1,
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded"
+        },
+        {
+          "topic": "Introduction to RAG",
+          "attempt": 1,
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded"
+        }
+      ]
+    },
+    "rag_definition": {
+      "count": 9,
+      "examples": [
+        {
+          "topic": "Introduction to RAG",
+          "attempt": 1,
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded, defines_jargon, coherent_flow"
+        },
+        {
+          "topic": "Introduction to RAG",
+          "attempt": 1,
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded, coherent_flow"
+        },
+        {
+          "topic": "Introduction to RAG",
+          "attempt": 1,
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded"
+        },
+        {
+          "topic": "Introduction to RAG",
+          "attempt": 1,
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded"
+        },
+        {
+          "topic": "Introduction to RAG",
+          "attempt": 1,
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded"
+        }
+      ]
+    },
+    "claims_are_grounded": {
+      "count": 9,
+      "examples": [
+        {
+          "topic": "Introduction to RAG",
+          "attempt": 1,
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded, defines_jargon, coherent_flow"
+        },
+        {
+          "topic": "Introduction to RAG",
+          "attempt": 1,
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded, coherent_flow"
+        },
+        {
+          "topic": "Introduction to RAG",
+          "attempt": 1,
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded"
+        },
+        {
+          "topic": "Introduction to RAG",
+          "attempt": 1,
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded"
+        },
+        {
+          "topic": "Introduction to RAG",
+          "attempt": 1,
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded"
+        }
+      ]
+    },
+    "defines_jargon": {
+      "count": 1,
+      "examples": [
+        {
+          "topic": "Introduction to RAG",
+          "attempt": 1,
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded, defines_jargon, coherent_flow"
+        }
+      ]
+    },
+    "coherent_flow": {
+      "count": 2,
+      "examples": [
+        {
+          "topic": "Introduction to RAG",
+          "attempt": 1,
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded, defines_jargon, coherent_flow"
+        },
+        {
+          "topic": "Introduction to RAG",
+          "attempt": 1,
+          "root_cause": "fault_wrong_retrieval_order, rag_definition, claims_are_grounded, coherent_flow"
+        }
+      ]
+    }
+  },
+  "topic_memory": {
+    "Introduction to RAG": {
+      "common_failures": [
+        "fault_wrong_retrieval_order",
+        "rag_definition",
+        "claims_are_grounded",
+        "defines_jargon",
+        "coherent_flow"
+      ],
+      "successful_fixes": [
+        "No repair was needed",
+        "Preserved the passing lesson structure and explicitly fixed: claims_are_grounded, coherent_flow, defines_jargon, fault_wrong_retrieval_order, rag_definition",
+        "Preserved the passing lesson structure and explicitly fixed: claims_are_grounded, coherent_flow, fault_wrong_retrieval_order, rag_definition",
+        "Preserved the passing lesson structure and explicitly fixed: claims_are_grounded, fault_wrong_retrieval_order, rag_definition"
+      ]
+    }
+  }
+}
